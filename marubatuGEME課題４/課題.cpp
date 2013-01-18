@@ -5,6 +5,7 @@ int chk(int s[3][3],int c);
 int main(void)
 {
 int i,j,x,y,r,s[3][3];
+printf("‰¡²X‚Æc²Y‚ğİ’è‚µ‚Ä‚­‚¾‚³‚¢B\nƒ}ƒ‹‚Í‚PB\nƒoƒc‚Í‚Q‚Å‚·B\n");
 
 for(i=0;i<3;i++){
 for(j=0;j<3;j++)s[i][j]=0;
@@ -13,7 +14,7 @@ for(j=0;j<3;j++)s[i][j]=0;
 ppp(s,0,0,0);
 
 for(i=1;i<10;i++){
-printf("\næè‚Ì“ü—Í\n");
+printf("\næè”š‚P‚Ì“ü—Í\n");
 printf("X:");
 scanf("%d",&x);
 printf("Y:");
@@ -24,7 +25,7 @@ if(r!=0){
 printf("\næè‚ÌŸ‚¿\n");
 return 0;
 }
-printf("\nŒãè‚Ì“ü—Í\n");
+printf("\nŒãè”š‚Q‚Ì“ü—Í\n");
 printf("X:");
 scanf("%d",&x);
 printf("Y:");
